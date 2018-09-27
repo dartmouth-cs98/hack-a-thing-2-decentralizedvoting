@@ -8,7 +8,7 @@ import { default as contract } from "truffle-contract"
 
 window.App = {
   start: function() {
-    
+
   }
 
 }
