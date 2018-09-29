@@ -67,9 +67,7 @@ App = {
       console.log("here")
     for (i = 0; i < candidates.length; i++) {
       if (candidates[i] !== '0x0000000000000000000000000000000000000000') {
-        console.log("here")
         $('.panel-candidate').eq(i).find('.votes').text(candidates[i]);
-        //$('.panel-candidate').eq(i).find('button').text(candidates[i]).attr('disabled', false);
       }
     }
     }).catch(function(err) {
