@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "Debbie Senesky",
+    "picture": "images/debbie-sen.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "Emily Chang",
+    "picture": "images/emily_chang.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Gwyne Shotwell",
+    "picture": "images/gwyne.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Emma Kennelly",
+    "picture": "images/emma.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Justine Cassell",
+    "picture": "images/justine.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Priscilla Chan",
+    "picture": "images/pripri.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Sara Dewitt",
+    "picture": "images/sara.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Jessica O'Matthews",
+    "picture": "images/jess.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Emily Pitts",
+    "picture": "images/emily.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Sophia Dominguez",
+    "picture": "images/sophia.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Padmasree Warrior",
+    "picture": "images/pad.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Yeonjae Park",
+    "picture": "images/yeonjae.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Anita Hill",
+    "picture": "images/anita-hill.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Noramay Cadena",
+    "picture": "images/noramay-cadena.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Anita Borg",
+    "picture": "images/anita-borg.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Grace Hopper",
+    "picture": "images/grace-hopper.jpeg"
+  }
+]
