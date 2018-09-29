@@ -20,9 +20,8 @@ contract Voting {
 
 
 	// Retrieving the candidates
-	function getcandidates() public view returns (uint[16]) {
+	function getCandidates() public view returns (uint[16]) {
   		return candidates;
 	}
 
 }
-

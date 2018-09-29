@@ -26,7 +26,7 @@ App = {
     if (typeof web3 !== 'undefined') {
       App.web3Provider = web3.currentProvider;
     } else {
-  
+
       // If no injected web3 instance is detected, fall back to Ganache
       App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
     }
@@ -64,8 +64,10 @@ App = {
 
     return votingInstance.getCandidates.call();
     }).then(function(candidates) {
+      console.log("here")
     for (i = 0; i < candidates.length; i++) {
       if (candidates[i] !== '0x0000000000000000000000000000000000000000') {
+        console.log("here")
         $('.panel-candidate').eq(i).find('button').text(candidates[i]).attr('disabled', false);
       }
     }
@@ -76,6 +78,7 @@ App = {
   },
 
   handleVote: function(event) {
+    console.log("handle")
     event.preventDefault();
 
     var candidateId = parseInt($(event.target).data('id'));
